@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Alkatra', cursive;
+    font-size: 1rem;
+}
+
+body{
+    height: 100vh;
+    background: url("/img/plano.jpg");
+}
+
+.header{
+    height: 140px;
+    background: linear-gradient(#DFB3FF, #B3FFF7 );
+    text-align: center;
+    box-shadow: -1px 10px 11px -4px rgba(0,0,0,0.54);
+}
+
+.text-header{
+    padding-top: 30px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+    background-color: rgb(142, 202, 255);
+    margin: 10% auto;
+    text-align: center;
+}
+
+#main-text{
+    font-size: 0.7rem;
+}
